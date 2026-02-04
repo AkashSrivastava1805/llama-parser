@@ -17,7 +17,7 @@ except Exception as e:
     st.info("Try running: pip install llama-parse pydantic==1.10.13")
 
 # --- UI Layout ---
-st.title("📄 LlamaParse pdf summarizer")
+st.title("📄 LlamaParse document summarizer")
 st.markdown("---")
 
 col_input, col_output = st.columns([1, 1], gap="medium")
