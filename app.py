@@ -32,7 +32,7 @@ with col_input:
         placeholder="e.g. 'Summarize this in bullet points' or 'Focus on the financial tables'"
     )
 
-    if st.button("🚀 Convert Document"):
+    if st.button("🚀 Convert to Document"):
         if not api_key:
             st.error("Please enter your API Key!")
         elif not uploaded_file:
